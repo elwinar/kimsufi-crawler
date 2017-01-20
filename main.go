@@ -82,6 +82,7 @@ func main() {
 					}
 
 					if metazone.Availability == "unavailable" {
+						log.Println("unavailable", server.Reference, metazone.Zone)
 						continue
 					}
 
